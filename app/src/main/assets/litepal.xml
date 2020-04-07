@@ -7,9 +7,9 @@
 
     <list>
 
-        <mapping class="com.example.eldersystem.db.Province"/>
-        <mapping class="com.example.eldersystem.db.City"/>
-        <mapping class="com.example.eldersystem.db.County"/>
+        <mapping class="com.example.eldersystem.weather.db.Province"/>
+        <mapping class="com.example.eldersystem.weather.db.City"/>
+        <mapping class="com.example.eldersystem.weather.db.County"/>
 
     </list>
 

@@ -1,4 +1,4 @@
-package com.example.eldersystem.service;
+package com.example.eldersystem.weather.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -8,13 +8,10 @@ import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
-import android.util.Log;
-import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.example.eldersystem.gson.Weather;
-import com.example.eldersystem.util.HttpUtil;
-import com.example.eldersystem.util.Utility;
+import com.example.eldersystem.weather.gson.Weather;
+import com.example.eldersystem.weather.util.HttpUtil;
+import com.example.eldersystem.weather.util.Utility;
 
 
 import java.io.IOException;

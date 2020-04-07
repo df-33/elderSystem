@@ -1,4 +1,4 @@
-package com.example.eldersystem.gson;
+package com.example.eldersystem.weather.gson;
 
 public class AQI {
 

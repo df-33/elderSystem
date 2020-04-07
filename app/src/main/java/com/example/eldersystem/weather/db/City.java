@@ -1,4 +1,4 @@
-package com.example.eldersystem.db;
+package com.example.eldersystem.weather.db;
 
 import org.litepal.crud.LitePalSupport;
 

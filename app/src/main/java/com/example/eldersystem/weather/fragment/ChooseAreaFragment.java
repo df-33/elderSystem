@@ -1,4 +1,4 @@
-package com.example.eldersystem.fragment;
+package com.example.eldersystem.weather.fragment;
 
 
 import android.app.ProgressDialog;
@@ -20,12 +20,12 @@ import androidx.fragment.app.Fragment;
 
 
 import com.example.eldersystem.R;
-import com.example.eldersystem.db.City;
-import com.example.eldersystem.db.County;
-import com.example.eldersystem.db.Province;
-import com.example.eldersystem.util.HttpUtil;
-import com.example.eldersystem.util.Utility;
 import com.example.eldersystem.weather.WeatherActivity;
+import com.example.eldersystem.weather.db.City;
+import com.example.eldersystem.weather.db.County;
+import com.example.eldersystem.weather.db.Province;
+import com.example.eldersystem.weather.util.HttpUtil;
+import com.example.eldersystem.weather.util.Utility;
 import com.example.eldersystem.weather.weather_main;
 
 import org.litepal.LitePal;

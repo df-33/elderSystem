@@ -8,7 +8,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -26,11 +25,11 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.bumptech.glide.Glide;
 import com.example.eldersystem.R;
-import com.example.eldersystem.gson.Forecast;
-import com.example.eldersystem.gson.Weather;
-import com.example.eldersystem.service.AutoUpdateService;
-import com.example.eldersystem.util.HttpUtil;
-import com.example.eldersystem.util.Utility;
+import com.example.eldersystem.weather.gson.Forecast;
+import com.example.eldersystem.weather.gson.Weather;
+import com.example.eldersystem.weather.service.AutoUpdateService;
+import com.example.eldersystem.weather.util.HttpUtil;
+import com.example.eldersystem.weather.util.Utility;
 
 
 import java.io.IOException;

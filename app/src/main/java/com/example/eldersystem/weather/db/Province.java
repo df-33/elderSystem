@@ -1,7 +1,6 @@
-package com.example.eldersystem.db;
+package com.example.eldersystem.weather.db;
 
 import org.litepal.crud.LitePalSupport;
-import org.litepal.exceptions.DataSupportException;
 
 public class Province extends LitePalSupport {
 

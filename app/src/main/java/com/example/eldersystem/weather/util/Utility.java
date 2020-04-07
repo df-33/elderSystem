@@ -1,13 +1,13 @@
-package com.example.eldersystem.util;
+package com.example.eldersystem.weather.util;
 
 import android.text.TextUtils;
 import android.util.Log;
 
 
-import com.example.eldersystem.db.City;
-import com.example.eldersystem.db.County;
-import com.example.eldersystem.db.Province;
-import com.example.eldersystem.gson.Weather;
+import com.example.eldersystem.weather.db.City;
+import com.example.eldersystem.weather.db.County;
+import com.example.eldersystem.weather.db.Province;
+import com.example.eldersystem.weather.gson.Weather;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;

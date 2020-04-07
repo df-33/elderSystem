@@ -1,5 +1,4 @@
-package com.example.eldersystem.util;
-import android.widget.RelativeLayout;
+package com.example.eldersystem.weather.util;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
